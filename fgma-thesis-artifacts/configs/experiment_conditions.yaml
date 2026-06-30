@@ -1,0 +1,25 @@
+conditions:
+  C0:
+    name: "No memory"
+    description: "No retrieved memory is inserted into the follow-up prompt."
+  C1:
+    name: "Positive memory"
+    description: "Only positive persona memory is retrieved."
+  C2:
+    name: "Error-diagnostic memory"
+    description: "Structured corrective memory with error type, corrected fact, negative constraint, scope, and retrieval keywords."
+  C3:
+    name: "Mixed memory"
+    description: "Positive memory and error-diagnostic memory are both available."
+  C4:
+    name: "Direct Correction Baseline"
+    description: "The corrected value is provided directly as a practical baseline condition."
+
+metrics:
+  - correction_success
+  - repeated_error
+  - memory_recall
+  - latency_ms
+  - token_count
+
+evaluation_unit: "evaluated follow-up turn"

@@ -1,0 +1,31 @@
+experiment,model,Metric,comparison,A mean,B mean,Delta,Wilcoxon p,Sig.
+Cross-arch,Gemma2-9B,Correction,C2 vs C1,0.903,0.0,0.903,2.4e-10,***
+Cross-arch,Gemma2-9B,Correction,C3 vs C1,0.92,0.0,0.92,2e-10,***
+Cross-arch,Gemma2-9B,Correction,C3 vs C2,0.92,0.903,0.017,0.397,ns
+Cross-arch,Gemma2-9B,Repeated Error,C2 vs C1,0.043,0.691,-0.649,6.5e-10,***
+Cross-arch,Gemma2-9B,Repeated Error,C3 vs C1,0.06,0.691,-0.631,6.6e-10,***
+Cross-arch,Gemma2-9B,Repeated Error,C3 vs C2,0.06,0.043,0.017,0.134,ns
+Cross-arch,Llama3.1-8B,Correction,C2 vs C1,0.857,0.0,0.857,3.7e-10,***
+Cross-arch,Llama3.1-8B,Correction,C3 vs C1,0.846,0.0,0.846,3.6e-10,***
+Cross-arch,Llama3.1-8B,Correction,C3 vs C2,0.846,0.857,-0.011,0.418,ns
+Cross-arch,Llama3.1-8B,Repeated Error,C2 vs C1,0.103,0.86,-0.757,6.4e-10,***
+Cross-arch,Llama3.1-8B,Repeated Error,C3 vs C1,0.103,0.86,-0.757,6.3e-10,***
+Cross-arch,Llama3.1-8B,Repeated Error,C3 vs C2,0.103,0.103,0.0,1.0,ns
+Cross-arch,Mistral-7B,Correction,C2 vs C1,0.697,0.0,0.697,4.9e-10,***
+Cross-arch,Mistral-7B,Correction,C3 vs C1,0.791,0.0,0.791,5.2e-10,***
+Cross-arch,Mistral-7B,Correction,C3 vs C2,0.791,0.697,0.094,0.00053,***
+Cross-arch,Mistral-7B,Repeated Error,C2 vs C1,0.294,0.931,-0.637,6.5e-10,***
+Cross-arch,Mistral-7B,Repeated Error,C3 vs C1,0.2,0.931,-0.731,6.4e-10,***
+Cross-arch,Mistral-7B,Repeated Error,C3 vs C2,0.2,0.294,-0.094,0.00051,***
+Qwen family,Qwen2.5-14B,Correction,C2 vs C1,0.9,0.0,0.9,1.5e-10,***
+Qwen family,Qwen2.5-14B,Correction,C3 vs C1,0.857,0.0,0.857,1.6e-11,***
+Qwen family,Qwen2.5-14B,Correction,C3 vs C2,0.857,0.9,-0.043,0.00021,***
+Qwen family,Qwen2.5-14B,Repeated Error,C2 vs C1,0.1,0.849,-0.749,5.7e-10,***
+Qwen family,Qwen2.5-14B,Repeated Error,C3 vs C1,0.143,0.849,-0.706,5.1e-10,***
+Qwen family,Qwen2.5-14B,Repeated Error,C3 vs C2,0.143,0.1,0.043,0.00027,***
+Qwen family,Qwen2.5-7B,Correction,C2 vs C1,0.851,0.0,0.851,2.4e-10,***
+Qwen family,Qwen2.5-7B,Correction,C3 vs C1,0.897,0.0,0.897,2.1e-10,***
+Qwen family,Qwen2.5-7B,Correction,C3 vs C2,0.897,0.851,0.046,0.029,*
+Qwen family,Qwen2.5-7B,Repeated Error,C2 vs C1,0.117,0.777,-0.66,6.8e-10,***
+Qwen family,Qwen2.5-7B,Repeated Error,C3 vs C1,0.077,0.777,-0.7,6.6e-10,***
+Qwen family,Qwen2.5-7B,Repeated Error,C3 vs C2,0.077,0.117,-0.04,0.029,*

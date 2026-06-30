@@ -1,0 +1,3 @@
+model,variant,correction_success_rate,repeated_error_rate,mean_input_tokens,mean_latency_ms,n_scenarios
+local_transformers:Qwen2___5-7B-Instruct,token_matched_neutral_memory,0.0,0.92,241.74,698.22,50
+local_transformers:Qwen2___5-7B-Instruct,token_matched_positive_style_memory,0.0,0.86,245.74,684.5,50

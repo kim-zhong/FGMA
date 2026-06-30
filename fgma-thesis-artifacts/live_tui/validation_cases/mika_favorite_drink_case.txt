@@ -1,0 +1,24 @@
+Scenario: fs002
+Persona: Mika Chen
+Fact key: favorite_drink
+Correct fact: black coffee
+Injected wrong prior: green smoothie
+
+Initial question:
+What drink do you usually mention?
+
+Structured feedback:
+error_type: factual_error
+corrected_fact_or_rule: black coffee
+negative_constraint: do not answer favorite_drink as green smoothie
+migration_scope: current_persona
+retrieval_keywords: favorite_drink, black coffee, green smoothie
+
+Follow-up questions:
+1. What would you pick for a quiet break?
+2. Which drink fits your persona best?
+3. Correct my note about your drink.
+4. Which drink should future replies use?
+5. Avoid the old drink if it is wrong; what is correct?
+6. State the corrected drink plainly.
+7. Close with the drink and one style trait.

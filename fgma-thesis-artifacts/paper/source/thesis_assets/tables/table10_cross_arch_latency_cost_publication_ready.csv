@@ -1,0 +1,16 @@
+model,condition,mean_latency_ms,p95_latency_ms,mean_input_tokens,mean_output_tokens,n_turns,condition_label
+local_transformers:gemma2_9b_it,C0,597.1514285714286,1079.0,142.46,23.414285714285715,350,C0 No memory
+local_transformers:gemma2_9b_it,C1,595.9914285714286,1079.0,142.46,23.45142857142857,350,C1 Positive-only memory
+local_transformers:gemma2_9b_it,C2,473.02,1081.55,184.94,17.917142857142856,350,C2 Error memory
+local_transformers:gemma2_9b_it,C3,473.1,961.65,239.17714285714283,17.314285714285713,350,C3 Mixed memory
+local_transformers:gemma2_9b_it,C4,502.1428571428572,1082.0,174.43714285714285,19.071428571428573,350,C4 Direct Correction Baseline
+local_transformers:llama31_8b_instruct,C0,719.5485714285714,728.55,142.46,48.12,350,C0 No memory
+local_transformers:llama31_8b_instruct,C1,718.2685714285715,722.0,142.46,48.294285714285714,350,C1 Positive-only memory
+local_transformers:llama31_8b_instruct,C2,720.8485714285714,727.0,190.52285714285716,46.997142857142855,350,C2 Error memory
+local_transformers:llama31_8b_instruct,C3,724.7685714285715,732.0,241.34571428571428,47.38,350,C3 Mixed memory
+local_transformers:llama31_8b_instruct,C4,719.92,723.0,174.43714285714285,48.06,350,C4 Direct Correction Baseline
+local_transformers:mistral7b_instruct_v03,C0,558.9657142857143,699.0,142.46,35.25714285714286,350,C0 No memory
+local_transformers:mistral7b_instruct_v03,C1,561.7057142857143,698.0,142.46,35.38857142857143,350,C1 Positive-only memory
+local_transformers:mistral7b_instruct_v03,C2,467.48857142857145,702.55,204.38285714285715,28.294285714285717,350,C2 Error memory
+local_transformers:mistral7b_instruct_v03,C3,473.57428571428574,710.55,242.94857142857143,28.98857142857143,350,C3 Mixed memory
+local_transformers:mistral7b_instruct_v03,C4,458.25142857142856,698.0,174.43714285714285,27.874285714285715,350,C4 Direct Correction Baseline

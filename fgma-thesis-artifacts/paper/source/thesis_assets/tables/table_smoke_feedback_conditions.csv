@@ -1,0 +1,5 @@
+condition,correction_success_rate,repeated_error_rate,memory_recall_accuracy,persona_consistency_score,tone_consistency_score,long_term_coherence_score,mean_latency_ms,p95_latency_ms,mean_input_tokens,mean_output_tokens,n_turns
+C0,0.0,1.0,0.0,2.0,4.0,3.0,2.0,2.0,102.775,30.3,120
+C1,0.0,1.0,0.0,2.0,4.0,3.0,2.0,2.0,102.775,30.3,120
+C2,1.0,0.0,1.0,5.0,4.0,5.0,3.0,3.0,136.13333333333333,30.6,120
+C3,1.0,0.0,1.0,5.0,4.0,5.0,3.0,3.0,166.48333333333332,30.6,120

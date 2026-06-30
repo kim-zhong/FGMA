@@ -1,0 +1,4 @@
+condition,legacy_label,normalized_label,thesis_definition,raw_logs_modified
+C4,legacy C4 upper-bound wording / direct_correction_baseline_memory,Direct Correction Baseline,"C4 provides direct corrected information as a baseline, but it does not construct the full structured error memory used by FGMA. Therefore, it is not treated as a strict best-possible ceiling.",no
+C2,Error memory,Error-diagnostic Memory,"Stores structured diagnostic feedback with corrected fact, negative constraint, migration scope, and retrieval keywords.",no
+C3,Mixed memory,Mixed Memory,Combines positive examples and error-diagnostic memories.,no

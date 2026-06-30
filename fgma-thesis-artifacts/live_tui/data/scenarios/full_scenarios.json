@@ -1,0 +1,38 @@
+[
+  {
+    "scenario_id": "fs001",
+    "persona_id": "p_aurora",
+    "fact_key": "home_city",
+    "turn_templates": [
+      "Where are you based?",
+      "Which city shaped your style?",
+      "What city belongs in your profile?",
+      "Correct my note about your city.",
+      "Which home city should future replies use?"
+    ]
+  },
+  {
+    "scenario_id": "fs002",
+    "persona_id": "p_mika",
+    "fact_key": "favorite_drink",
+    "turn_templates": [
+      "What drink do you usually mention?",
+      "What would you pick for a quiet break?",
+      "Which drink fits your persona best?",
+      "Correct my note about your drink.",
+      "Which drink should future replies use?"
+    ]
+  },
+  {
+    "scenario_id": "fs003",
+    "persona_id": "p_noor",
+    "fact_key": "signature_project",
+    "turn_templates": [
+      "What project are you known for?",
+      "Which signature project should I remember?",
+      "What work best represents you?",
+      "Correct my note about your project.",
+      "Which project should future replies use?"
+    ]
+  }
+]

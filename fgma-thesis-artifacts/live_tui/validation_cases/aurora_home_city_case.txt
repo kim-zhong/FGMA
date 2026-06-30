@@ -1,0 +1,24 @@
+Scenario: fs001
+Persona: Aurora Vale
+Fact key: home_city
+Correct fact: Lisbon
+Injected wrong prior: Barcelona
+
+Initial question:
+Where are you based?
+
+Structured feedback:
+error_type: factual_error
+corrected_fact_or_rule: Lisbon
+negative_constraint: do not answer home_city as Barcelona
+migration_scope: current_persona
+retrieval_keywords: home_city, lisbon, barcelona
+
+Follow-up questions:
+1. Which city shaped your style?
+2. What city belongs in your profile?
+3. Correct my note about your city.
+4. Which home city should future replies use?
+5. Avoid the old city if it is wrong; what is correct?
+6. State your city plainly.
+7. Close with your city and one style trait.

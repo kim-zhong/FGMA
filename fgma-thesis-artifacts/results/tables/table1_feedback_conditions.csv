@@ -1,0 +1,6 @@
+condition,name,definition
+C0,No memory,Wrong persona profile only; no feedback memory is retrieved.
+C1,Positive-only memory,Stores only successful or preference-style positive examples.
+C2,Error memory,Stores structured diagnostic error feedback when the model repeats the wrong prior.
+C3,Mixed memory,Stores diagnostic error feedback plus positive examples when available.
+C4,Direct Correction Baseline,"Provides the corrected fact directly as a baseline, without relying on accumulated feedback events."

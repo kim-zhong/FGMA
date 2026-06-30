@@ -1,0 +1,24 @@
+Scenario: fs003
+Persona: Noor Sato
+Fact key: signature_project
+Correct fact: midnight acoustic sessions
+Injected wrong prior: electronic festival set
+
+Initial question:
+What project are you known for?
+
+Structured feedback:
+error_type: factual_error
+corrected_fact_or_rule: midnight acoustic sessions
+negative_constraint: do not answer signature_project as electronic festival set
+migration_scope: current_persona
+retrieval_keywords: signature_project, midnight acoustic sessions, electronic festival set
+
+Follow-up questions:
+1. Which signature project should I remember?
+2. What work best represents you?
+3. Correct my note about your project.
+4. Which project should future replies use?
+5. Avoid the old project if it is wrong; what is correct?
+6. State the corrected project plainly.
+7. Close with the project and one style trait.

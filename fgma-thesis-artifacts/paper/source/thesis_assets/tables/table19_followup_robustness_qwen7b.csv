@@ -1,0 +1,13 @@
+model,condition,condition_label,mode,correction_success_rate,repeated_error_rate,mean_input_tokens,mean_latency_ms,n_scenarios
+local_transformers:Qwen2___5-7B-Instruct,C1,C1 Positive-only memory,delayed_followup,0.0,1.0,141.8,646.26,50
+local_transformers:Qwen2___5-7B-Instruct,C1,C1 Positive-only memory,distractor_followup,0.0,0.8,139.66,449.2,50
+local_transformers:Qwen2___5-7B-Instruct,C1,C1 Positive-only memory,immediate_followup,0.0,0.88,141.74,678.44,50
+local_transformers:Qwen2___5-7B-Instruct,C1,C1 Positive-only memory,paraphrased_followup,0.0,1.0,140.82,646.06,50
+local_transformers:Qwen2___5-7B-Instruct,C2,C2 Error memory,delayed_followup,0.68,0.32,195.58,600.22,50
+local_transformers:Qwen2___5-7B-Instruct,C2,C2 Error memory,distractor_followup,1.0,0.0,172.96,279.38,50
+local_transformers:Qwen2___5-7B-Instruct,C2,C2 Error memory,immediate_followup,0.94,0.02,175.24,670.88,50
+local_transformers:Qwen2___5-7B-Instruct,C2,C2 Error memory,paraphrased_followup,0.94,0.0,174.24,608.6,50
+local_transformers:Qwen2___5-7B-Instruct,C3,C3 Mixed memory,delayed_followup,0.84,0.16,220.32,637.64,50
+local_transformers:Qwen2___5-7B-Instruct,C3,C3 Mixed memory,distractor_followup,1.0,0.0,172.96,283.34,50
+local_transformers:Qwen2___5-7B-Instruct,C3,C3 Mixed memory,immediate_followup,0.96,0.0,175.24,666.52,50
+local_transformers:Qwen2___5-7B-Instruct,C3,C3 Mixed memory,paraphrased_followup,0.94,0.0,174.24,609.9,50

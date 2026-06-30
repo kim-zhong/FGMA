@@ -1,0 +1,7 @@
+model_id,display_name,architecture_family,parameter_scale,role,provider,model_path,decoding,max_new_tokens,hardware
+qwen25_7b,Qwen2.5-7B-Instruct,Qwen2.5,7B,main 7B/14B experiment; defensive ablations; token control,local_transformers,model identifier only; local cache path omitted,"greedy, temperature 0 equivalent",48,RTX PRO 6000 Blackwell Server Edition 98GB
+qwen25_14b,Qwen2.5-14B-Instruct,Qwen2.5,14B,main 7B/14B experiment,local_transformers,model identifier only; local cache path omitted,"greedy, temperature 0 equivalent",48,RTX PRO 6000 Blackwell Server Edition 98GB
+llama31_8b_instruct,Llama3.1-8B-Instruct,Llama3.1,8B,cross-architecture validation,local_transformers,existing local model cache; see configs/cross_arch_validation.yaml,"greedy, temperature 0 equivalent",48,RTX PRO 6000 Blackwell Server Edition 98GB
+gemma2_9b_it,Gemma2-9B-IT,Gemma2,9B,cross-architecture validation,local_transformers,existing local model cache; see configs/cross_arch_validation.yaml,"greedy, temperature 0 equivalent",48,RTX PRO 6000 Blackwell Server Edition 98GB
+mistral7b_instruct_v03,Mistral-7B-Instruct-v0.3,Mistral,7B,cross-architecture validation,local_transformers,existing local model cache; see configs/cross_arch_validation.yaml,"greedy, temperature 0 equivalent",48,RTX PRO 6000 Blackwell Server Edition 98GB
+deepseek-chat,DeepSeek chat API judge,API judge,not reported,LLM judge rubric evaluation only,DeepSeek API,provider API endpoint configured locally,"temperature 0, JSON response_format",256,external API

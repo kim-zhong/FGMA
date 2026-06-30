@@ -1,0 +1,71 @@
+dataset,condition,condition_label,followup_group,correction_success_rate,repeated_error_rate,n_turns
+cross_arch,C0,C0 No memory,closing_delayed_probe,0.0,0.9,150
+cross_arch,C0,C0 No memory,delayed_future_use,0.0,0.9533333333333334,150
+cross_arch,C0,C0 No memory,explicit_correction_probe,0.0,0.7733333333333333,150
+cross_arch,C0,C0 No memory,immediate_paraphrase,0.0,0.8066666666666666,150
+cross_arch,C0,C0 No memory,negative_constraint_probe,0.02,0.4266666666666667,150
+cross_arch,C0,C0 No memory,paraphrased_profile_probe,0.0,0.96,150
+cross_arch,C0,C0 No memory,plain_delayed_probe,0.0,0.9266666666666666,150
+cross_arch,C1,C1 Positive-only memory,closing_delayed_probe,0.0,0.9066666666666666,150
+cross_arch,C1,C1 Positive-only memory,delayed_future_use,0.0,0.9533333333333334,150
+cross_arch,C1,C1 Positive-only memory,explicit_correction_probe,0.0,0.76,150
+cross_arch,C1,C1 Positive-only memory,immediate_paraphrase,0.0,0.8066666666666666,150
+cross_arch,C1,C1 Positive-only memory,negative_constraint_probe,0.0,0.48,150
+cross_arch,C1,C1 Positive-only memory,paraphrased_profile_probe,0.0,0.96,150
+cross_arch,C1,C1 Positive-only memory,plain_delayed_probe,0.0,0.9266666666666666,150
+cross_arch,C2,C2 Error memory,closing_delayed_probe,0.92,0.0,150
+cross_arch,C2,C2 Error memory,delayed_future_use,1.0,0.0,150
+cross_arch,C2,C2 Error memory,explicit_correction_probe,0.3466666666666667,0.5933333333333334,150
+cross_arch,C2,C2 Error memory,immediate_paraphrase,0.9066666666666666,0.02666666666666667,150
+cross_arch,C2,C2 Error memory,negative_constraint_probe,0.7466666666666667,0.22,150
+cross_arch,C2,C2 Error memory,paraphrased_profile_probe,0.8933333333333333,0.10666666666666667,150
+cross_arch,C2,C2 Error memory,plain_delayed_probe,0.92,0.08,150
+cross_arch,C3,C3 Mixed memory,closing_delayed_probe,0.94,0.0,150
+cross_arch,C3,C3 Mixed memory,delayed_future_use,1.0,0.0,150
+cross_arch,C3,C3 Mixed memory,explicit_correction_probe,0.4266666666666667,0.5466666666666666,150
+cross_arch,C3,C3 Mixed memory,immediate_paraphrase,0.8866666666666667,0.03333333333333333,150
+cross_arch,C3,C3 Mixed memory,negative_constraint_probe,0.8466666666666667,0.15333333333333332,150
+cross_arch,C3,C3 Mixed memory,paraphrased_profile_probe,0.9066666666666666,0.07333333333333333,150
+cross_arch,C3,C3 Mixed memory,plain_delayed_probe,0.96,0.04,150
+cross_arch,C4,C4 Direct Correction Baseline,closing_delayed_probe,0.9133333333333333,0.0,150
+cross_arch,C4,C4 Direct Correction Baseline,delayed_future_use,0.96,0.02,150
+cross_arch,C4,C4 Direct Correction Baseline,explicit_correction_probe,0.31333333333333335,0.6266666666666667,150
+cross_arch,C4,C4 Direct Correction Baseline,immediate_paraphrase,0.9066666666666666,0.0,150
+cross_arch,C4,C4 Direct Correction Baseline,negative_constraint_probe,0.74,0.19333333333333333,150
+cross_arch,C4,C4 Direct Correction Baseline,paraphrased_profile_probe,0.96,0.04,150
+cross_arch,C4,C4 Direct Correction Baseline,plain_delayed_probe,0.9866666666666667,0.013333333333333334,150
+main_qwen7b14b,C0,C0 No memory,closing_delayed_probe,0.0,0.94,100
+main_qwen7b14b,C0,C0 No memory,delayed_future_use,0.0,1.0,100
+main_qwen7b14b,C0,C0 No memory,explicit_correction_probe,0.0,0.63,100
+main_qwen7b14b,C0,C0 No memory,immediate_paraphrase,0.0,0.84,100
+main_qwen7b14b,C0,C0 No memory,negative_constraint_probe,0.0,0.3,100
+main_qwen7b14b,C0,C0 No memory,paraphrased_profile_probe,0.0,1.0,100
+main_qwen7b14b,C0,C0 No memory,plain_delayed_probe,0.0,0.91,100
+main_qwen7b14b,C1,C1 Positive-only memory,closing_delayed_probe,0.0,0.94,100
+main_qwen7b14b,C1,C1 Positive-only memory,delayed_future_use,0.0,1.0,100
+main_qwen7b14b,C1,C1 Positive-only memory,explicit_correction_probe,0.0,0.69,100
+main_qwen7b14b,C1,C1 Positive-only memory,immediate_paraphrase,0.0,0.87,100
+main_qwen7b14b,C1,C1 Positive-only memory,negative_constraint_probe,0.0,0.29,100
+main_qwen7b14b,C1,C1 Positive-only memory,paraphrased_profile_probe,0.0,1.0,100
+main_qwen7b14b,C1,C1 Positive-only memory,plain_delayed_probe,0.0,0.9,100
+main_qwen7b14b,C2,C2 Error memory,closing_delayed_probe,1.0,0.0,100
+main_qwen7b14b,C2,C2 Error memory,delayed_future_use,0.85,0.15,100
+main_qwen7b14b,C2,C2 Error memory,explicit_correction_probe,0.35,0.59,100
+main_qwen7b14b,C2,C2 Error memory,immediate_paraphrase,0.97,0.01,100
+main_qwen7b14b,C2,C2 Error memory,negative_constraint_probe,0.99,0.01,100
+main_qwen7b14b,C2,C2 Error memory,paraphrased_profile_probe,0.97,0.0,100
+main_qwen7b14b,C2,C2 Error memory,plain_delayed_probe,1.0,0.0,100
+main_qwen7b14b,C3,C3 Mixed memory,closing_delayed_probe,1.0,0.0,100
+main_qwen7b14b,C3,C3 Mixed memory,delayed_future_use,0.97,0.03,100
+main_qwen7b14b,C3,C3 Mixed memory,explicit_correction_probe,0.24,0.69,100
+main_qwen7b14b,C3,C3 Mixed memory,immediate_paraphrase,0.98,0.0,100
+main_qwen7b14b,C3,C3 Mixed memory,negative_constraint_probe,0.99,0.01,100
+main_qwen7b14b,C3,C3 Mixed memory,paraphrased_profile_probe,0.99,0.01,100
+main_qwen7b14b,C3,C3 Mixed memory,plain_delayed_probe,0.97,0.03,100
+main_qwen7b14b,C4,C4 Direct Correction Baseline,closing_delayed_probe,1.0,0.0,100
+main_qwen7b14b,C4,C4 Direct Correction Baseline,delayed_future_use,0.81,0.19,100
+main_qwen7b14b,C4,C4 Direct Correction Baseline,explicit_correction_probe,0.3,0.49,100
+main_qwen7b14b,C4,C4 Direct Correction Baseline,immediate_paraphrase,1.0,0.0,100
+main_qwen7b14b,C4,C4 Direct Correction Baseline,negative_constraint_probe,0.84,0.16,100
+main_qwen7b14b,C4,C4 Direct Correction Baseline,paraphrased_profile_probe,0.94,0.03,100
+main_qwen7b14b,C4,C4 Direct Correction Baseline,plain_delayed_probe,1.0,0.0,100

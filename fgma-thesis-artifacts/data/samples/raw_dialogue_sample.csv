@@ -1,0 +1,11 @@
+condition,correction_success,repeated_error,memory_recall,latency_ms,token_count
+C0,0,1,0,240,118
+C0,0,1,0,252,121
+C1,0,1,0,266,149
+C1,1,0,1,271,152
+C2,1,0,1,305,181
+C2,1,0,1,311,186
+C3,1,0,1,323,194
+C3,1,0,1,329,198
+C4,1,0,1,287,166
+C4,1,0,1,291,169

@@ -1,0 +1,31 @@
+dataset,condition,condition_label,error_type,fact_key,correction_success_rate,repeated_error_rate,n_turns
+cross_arch,C0,C0 No memory,Factual Error,favorite_drink,0.008403361344537815,0.8123249299719888,357
+cross_arch,C0,C0 No memory,Factual Error,home_city,0.0,0.8711484593837535,357
+cross_arch,C0,C0 No memory,Factual Error,signature_project,0.0,0.7767857142857143,336
+cross_arch,C1,C1 Positive-only memory,Factual Error,favorite_drink,0.0,0.8235294117647058,357
+cross_arch,C1,C1 Positive-only memory,Factual Error,home_city,0.0,0.876750700280112,357
+cross_arch,C1,C1 Positive-only memory,Factual Error,signature_project,0.0,0.7797619047619048,336
+cross_arch,C2,C2 Error memory,Factual Error,favorite_drink,0.8235294117647058,0.16806722689075632,357
+cross_arch,C2,C2 Error memory,Factual Error,home_city,0.7787114845938375,0.1876750700280112,357
+cross_arch,C2,C2 Error memory,Factual Error,signature_project,0.8571428571428571,0.08035714285714286,336
+cross_arch,C3,C3 Mixed memory,Factual Error,favorite_drink,0.8795518207282913,0.10644257703081232,357
+cross_arch,C3,C3 Mixed memory,Factual Error,home_city,0.7955182072829131,0.18487394957983194,357
+cross_arch,C3,C3 Mixed memory,Factual Error,signature_project,0.8839285714285714,0.06845238095238096,336
+cross_arch,C4,C4 Direct Correction Baseline,Factual Error,favorite_drink,0.8627450980392157,0.12044817927170869,357
+cross_arch,C4,C4 Direct Correction Baseline,Factual Error,home_city,0.7815126050420168,0.15966386554621848,357
+cross_arch,C4,C4 Direct Correction Baseline,Factual Error,signature_project,0.8333333333333334,0.10119047619047619,336
+main_qwen7b14b,C0,C0 No memory,Factual Error,favorite_drink,0.0,0.819327731092437,238
+main_qwen7b14b,C0,C0 No memory,Factual Error,home_city,0.0,0.8739495798319328,238
+main_qwen7b14b,C0,C0 No memory,Factual Error,signature_project,0.0,0.7098214285714286,224
+main_qwen7b14b,C1,C1 Positive-only memory,Factual Error,favorite_drink,0.0,0.8319327731092437,238
+main_qwen7b14b,C1,C1 Positive-only memory,Factual Error,home_city,0.0,0.8865546218487395,238
+main_qwen7b14b,C1,C1 Positive-only memory,Factual Error,signature_project,0.0,0.7142857142857143,224
+main_qwen7b14b,C2,C2 Error memory,Factual Error,favorite_drink,0.8949579831932774,0.09663865546218488,238
+main_qwen7b14b,C2,C2 Error memory,Factual Error,home_city,0.8361344537815126,0.1638655462184874,238
+main_qwen7b14b,C2,C2 Error memory,Factual Error,signature_project,0.8973214285714286,0.0625,224
+main_qwen7b14b,C3,C3 Mixed memory,Factual Error,favorite_drink,0.8865546218487395,0.10504201680672269,238
+main_qwen7b14b,C3,C3 Mixed memory,Factual Error,home_city,0.8403361344537815,0.14705882352941177,238
+main_qwen7b14b,C3,C3 Mixed memory,Factual Error,signature_project,0.90625,0.07589285714285714,224
+main_qwen7b14b,C4,C4 Direct Correction Baseline,Factual Error,favorite_drink,0.865546218487395,0.13445378151260504,238
+main_qwen7b14b,C4,C4 Direct Correction Baseline,Factual Error,home_city,0.7689075630252101,0.21428571428571427,238
+main_qwen7b14b,C4,C4 Direct Correction Baseline,Factual Error,signature_project,0.8928571428571429,0.017857142857142856,224

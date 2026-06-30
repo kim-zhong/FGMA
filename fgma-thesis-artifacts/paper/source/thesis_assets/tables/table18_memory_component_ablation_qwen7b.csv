@@ -1,0 +1,5 @@
+model,variant,correction_success_rate,repeated_error_rate,mean_input_tokens,mean_latency_ms,n_scenarios
+local_transformers:Qwen2___5-7B-Instruct,corrected_fact_only,0.96,0.0,152.44,670.86,50
+local_transformers:Qwen2___5-7B-Instruct,error_type_only,0.0,0.98,152.54,683.7,50
+local_transformers:Qwen2___5-7B-Instruct,full_fgma,0.94,0.0,199.34,644.08,50
+local_transformers:Qwen2___5-7B-Instruct,negative_constraint_only,0.08,0.22,160.38,677.68,50
